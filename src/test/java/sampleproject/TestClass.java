@@ -17,7 +17,8 @@ public class TestClass {
 		options.addArguments("--headless=new");
 
 		WebDriver driver = new ChromeDriver(options);
-		driver.get("https://automateNow.io");
+//		driver.get("https://automateNow.io");
+		driver.get("https://google.com");
 		driver.quit();
 
 	}
